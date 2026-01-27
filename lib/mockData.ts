@@ -157,7 +157,56 @@ export const users: User[] = [
             date: 'Jan 27, 2026',
             amount: 1500000.0,
             status: 'success'
-          }
+          },
+          {
+            merchant: 'Vat Fee - Charges',
+            category: '****8553',
+            date: 'Jan 24, 2026',
+            amount: -230.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Vat Fee - Charges',
+            category: '****9653',
+            date: 'Jan 22, 2026',
+            amount: -350.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Vat Fee - Charges',
+            category: '****2663',
+            date: 'Jan 20, 2026',
+            amount: -420.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Vat Fee - Charges',
+            category: '****3553',
+            date: 'Jan 18, 2026',
+            amount: -230.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Vat Fee - Charges',
+            category: '****4347',
+            date: 'Jan 16, 2026',
+            amount: -250.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Vat Fee - Charges',
+            category: '****6335',
+            date: 'Jan 14, 2026',
+            amount: -250.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Vat Fee - Charges',
+            category: '****7993',
+            date: 'Jan 14, 2026',
+            amount: -250.0,
+            status: 'success'
+          },
         ]
       },
       {
