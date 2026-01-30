@@ -245,7 +245,7 @@ export const users: User[] = [
     lastName: 'Angie',
     email: 'r*@gmail.com',
     username: 'angie0733',
-    password: ' Finace20!5',
+    password: 'Finace20!5',
     transactionCode: '7894',
     createdAt: '2026-1-27', // y-m-d
     transactionMsg: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
