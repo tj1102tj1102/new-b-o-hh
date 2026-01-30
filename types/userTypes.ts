@@ -1,5 +1,5 @@
 // Types for nested structure
-export type AccountType = "checking" | "savings";
+// export type AccountType = "checking" | "savings";
 export type TransactionStatus = "success" | "pending" | "failed" | "canceled" | "processing";
 
 export interface Transaction {
@@ -16,7 +16,7 @@ export interface Account {
   routingNumber?: string;
   balance: number;
   isPrimary: boolean;
-  type: AccountType;
+  type: string;
   transactions?: Transaction[];
 }
 

@@ -244,17 +244,19 @@ export const users: User[] = [
     firstName: 'Rachael',
     lastName: 'Angie',
     email: 'r*@gmail.com',
-    username: 'angie0733',
-    password: ' Finace20!5',
+    username: 'l',
+    password: 'l',
+    // username: 'angie0733',
+    // password: ' Finace20!5',
     transactionCode: '7894',
     createdAt: '2026-1-27', // y-m-d
-    transactionMsg: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+    transactionMsg: 'Hi, Walter Menza your account have been hold due to the unpaid payment for your BANK OF AMERICA WINNING ACCOUNT please make the payment to access your account.',
     accounts: [
       {
         type: 'checking',
         name: 'Everyday Checking',
         accountNumber: '9876542457',
-        balance: 486465.0,
+        balance: 1500000.0,
         isPrimary: true,
         transactions: [
           {
@@ -366,7 +368,7 @@ export const users: User[] = [
             merchant: 'Vat Fee - Charges',
             category: '****3904',
             date: 'Aug 21, 2025',
-            amount: -185.0,
+            amount: -185.00,
             status: 'success'
           },
           {
