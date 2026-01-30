@@ -18,7 +18,7 @@ export const AccountSchema = z.object({
   routingNumber: z.string(),
   balance: z.number(),
   isPrimary: z.boolean().default(false),
-  type: z.enum(["checking", "savings"]),
+  type: z.string(),
   transactions: z.array(TransactionSchema),
 });
 
