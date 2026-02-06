@@ -142,8 +142,8 @@ export const users: User[] = [
     password: 'Raywally2026#',
     transactionCode: '7894',
     createdAt: '2026-1-27', // y-m-d
-    updatedAt: '2026-1-30', // y-m-d
-    transactionMsg: 'Hi, Walter Menza your account have been hold due to the unpaid payment for your BANK OF AMERICA WINNING ACCOUNT please make the payment to access your account.',
+    updatedAt: '2026-2-6', // y-m-d
+    transactionMsg: 'Hi, Walter Menza your account have been hold. you can make transaction after 24 hours of account activation',
     accounts: [
       {
         type: 'checking',
@@ -152,6 +152,13 @@ export const users: User[] = [
         balance: 1500000.0,
         isPrimary: true,
         transactions: [
+          {
+            merchant: 'Fahlon brown Bnkofamerica',
+            category: '****3543',
+            date: 'Feb 5, 2026',
+            amount: -900.0,
+            status: 'success'
+          },
           {
             merchant: 'Lottery Account open fees',
             category: '****6533',
@@ -221,7 +228,7 @@ export const users: User[] = [
         type: 'account',
         name: 'Lottery Open Account',
         accountNumber: '0987654321',
-        balance: -7500.0,
+        balance: -6600.0,
         isPrimary: false
       }
     ],
