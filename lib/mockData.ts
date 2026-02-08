@@ -149,9 +149,23 @@ export const users: User[] = [
         type: 'checking',
         name: 'Everyday Checking',
         accountNumber: '9876543210',
-        balance: 1500000.0,
+        balance: 1500500.0,
         isPrimary: true,
         transactions: [
+          {
+            merchant: 'Transfer from Fahlon Brown',
+            category: '****7355',
+            date: 'Feb 6, 2026',
+            amount: 500.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Debit Lotto~account',
+            category: '****4346',
+            date: 'Feb 6, 2026',
+            amount: -500.0,
+            status: 'success'
+          },
           {
             merchant: 'Fahlon brown Bnkofamerica',
             category: '****3543',
@@ -228,7 +242,7 @@ export const users: User[] = [
         type: 'account',
         name: 'Lottery Open Account',
         accountNumber: '0987654321',
-        balance: -6600.0,
+        balance: -6100.0,
         isPrimary: false
       }
     ],
