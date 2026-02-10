@@ -11,7 +11,8 @@ export const users: User[] = [
     email: 'sarah.johnson@email.com',
     phone: '(555) 123-4567',
     transactionCode: '6363',
-    transactionMsg: "The recipient's bank account could not be verified. Please double-check the account number and routing number, then try again.",
+    transactionMsg:
+      "The recipient's bank account could not be verified. Please double-check the account number and routing number, then try again.",
     createdAt: '2023-01-15',
     accounts: [
       {
@@ -143,7 +144,8 @@ export const users: User[] = [
     transactionCode: '7894',
     createdAt: '2026-1-27', // y-m-d
     updatedAt: '2026-2-6', // y-m-d
-    transactionMsg: 'Hi, Walter Menza your account have been hold. you can make transaction after 24 hours of account activation',
+    transactionMsg:
+      'Hi, Walter Menza your account have been hold. you can make transaction after 24 hours of account activation',
     accounts: [
       {
         type: 'checking',
@@ -269,7 +271,8 @@ export const users: User[] = [
     password: 'Finace20!5',
     transactionCode: '7894',
     createdAt: '2026-1-27', // y-m-d
-    transactionMsg: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+    transactionMsg:
+      'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
     accounts: [
       {
         type: 'checking',
@@ -402,6 +405,175 @@ export const users: User[] = [
             category: '****2279',
             date: 'Feb 02, 2025',
             amount: -155.49,
+            status: 'success'
+          }
+        ]
+      },
+      {
+        type: 'savings',
+        name: 'High Yield Savings',
+        accountNumber: '0987654321',
+        balance: 0.0,
+        isPrimary: false
+      }
+    ],
+    cards: [
+      {
+        id: 'card_003',
+        cardNumber: '4532123456783458',
+        expiryDate: '08/27',
+        cvv: '789',
+        cardType: 'debit',
+        cardName: 'Premier Checking Card',
+        issuer: 'Visa',
+        isPrimary: true,
+        createdAt: '2021-09-10'
+      }
+    ]
+  },
+  {
+    id: '0004',
+    firstName: 'Thomas',
+    lastName: 'Wyant',
+    email: 'tw*@gmail.com',
+    username: 'ThomasWyant1968',
+    password: 'Twyant1968',
+    transactionCode: '7894',
+    createdAt: '2026-2-10', // y-m-d
+    transactionMsg:
+      'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+    accounts: [
+      {
+        type: 'checking',
+        name: 'Everyday Checking',
+        accountNumber: '9876542457',
+        balance: 850000.0,
+        isPrimary: true,
+        transactions: [
+          {
+            merchant: 'Transfer from Alice Johnson',
+            category: '****4821',
+            date: 'Dec 15, 2018',
+            amount: 48000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to Michael Smith',
+            category: '****9374',
+            date: 'Nov 03, 2018',
+            amount: -35000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Sarah Lee',
+            category: '****1265',
+            date: 'Jan 22, 2018',
+            amount: 42000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to David Brown',
+            category: '****8432',
+            date: 'Oct 12, 2017',
+            amount: -30000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Emily Clark',
+            category: '****5910',
+            date: 'Jul 08, 2017',
+            amount: 46000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to John Doe',
+            category: '****3748',
+            date: 'Mar 19, 2017',
+            amount: -28000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Laura White',
+            category: '****6592',
+            date: 'Dec 05, 2016',
+            amount: 47000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to Kevin Green',
+            category: '****2081',
+            date: 'Aug 23, 2016',
+            amount: -26000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Rachel Adams',
+            category: '****7319',
+            date: 'Feb 11, 2016',
+            amount: 45000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to Brian Scott',
+            category: '****1942',
+            date: 'Nov 14, 2015',
+            amount: -24000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Megan Hall',
+            category: '****8623',
+            date: 'Jun 29, 2015',
+            amount: 44000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to Steven King',
+            category: '****5107',
+            date: 'Mar 03, 2015',
+            amount: -22000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Olivia Turner',
+            category: '****3784',
+            date: 'Dec 18, 2014',
+            amount: 46000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to Nathan Wright',
+            category: '****9462',
+            date: 'Sep 07, 2014',
+            amount: -25000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Chloe Baker',
+            category: '****1259',
+            date: 'Apr 25, 2014',
+            amount: 43000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to Tyler Evans',
+            category: '****7341',
+            date: 'Oct 30, 2013',
+            amount: -20000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Sophia Collins',
+            category: '****5683',
+            date: 'Jul 21, 2013',
+            amount: 48000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to Jason Ramirez',
+            category: '****9210',
+            date: 'Mar 12, 2013',
+            amount: -21000.0,
             status: 'success'
           }
         ]
