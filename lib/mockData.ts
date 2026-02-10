@@ -590,7 +590,7 @@ export const users: User[] = [
       {
         id: 'card_003',
         cardNumber: '4532123456783458',
-        expiryDate: '08/27',
+        expiryDate: '08/19',
         cvv: '789',
         cardType: 'debit',
         cardName: 'Premier Checking Card',
