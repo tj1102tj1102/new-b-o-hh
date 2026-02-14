@@ -250,7 +250,7 @@ export const users: User[] = [
         type: 'account',
         name: 'Lottery Open Account',
         accountNumber: '0987654321',
-        balance: -5600.0,
+        balance: -5100.0,
         isPrimary: false
       }
     ],
