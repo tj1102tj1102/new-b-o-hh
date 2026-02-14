@@ -143,7 +143,7 @@ export const users: User[] = [
     password: 'Raywally2026#',
     transactionCode: '7894',
     createdAt: '2026-1-27', // y-m-d
-    updatedAt: '2026-2-6', // y-m-d
+    updatedAt: '2026-2-14', // y-m-d
     transactionMsg:
       'Hi, Walter Menza your account have been hold. you can make transaction after 24 hours of account activation',
     accounts: [
@@ -154,6 +154,13 @@ export const users: User[] = [
         balance: 1500500.0,
         isPrimary: true,
         transactions: [
+          {
+            merchant: 'Transfer from Fahlon Brown',
+            category: '****3537',
+            date: 'Feb 14, 2026',
+            amount: 500.0,
+            status: 'success'
+          },
           {
             merchant: 'Transfer from Fahlon Brown',
             category: '****7355',
