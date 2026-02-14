@@ -142,7 +142,7 @@ export const users: User[] = [
     password: 'Raywally2026#',
     transactionCode: '7894',
     createdAt: '2026-1-27', // y-m-d
-    updatedAt: '2026-2-14', // y-m-d
+    updatedAt: '2026-2-6', // y-m-d
     transactionMsg:
       'Hi, Walter Menza your account have been hold. you can make transaction after 24 hours of account activation',
     accounts: [
@@ -150,7 +150,7 @@ export const users: User[] = [
         type: 'checking',
         name: 'Everyday Checking',
         accountNumber: '9876543210',
-        balance: 1501000.0,
+        balance: 1500500.0,
         isPrimary: true,
         transactions: [
           {
@@ -250,7 +250,7 @@ export const users: User[] = [
         type: 'account',
         name: 'Lottery Open Account',
         accountNumber: '0987654321',
-        balance: -6100.0,
+        balance: -5600.0,
         isPrimary: false
       }
     ],
