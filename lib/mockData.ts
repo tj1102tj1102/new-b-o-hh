@@ -11,8 +11,7 @@ export const users: User[] = [
     email: 'sarah.johnson@email.com',
     phone: '(555) 123-4567',
     transactionCode: '6363',
-    transactionMsg:
-      "The recipient's bank account could not be verified. Please double-check the account number and routing number, then try again.",
+    transactionMsg: "The recipient's bank account could not be verified. Please double-check the account number and routing number, then try again.",
     createdAt: '2023-01-15',
     accounts: [
       {
@@ -151,7 +150,7 @@ export const users: User[] = [
         type: 'checking',
         name: 'Everyday Checking',
         accountNumber: '9876543210',
-        balance: 1500500.0,
+        balance: 1501000.0,
         isPrimary: true,
         transactions: [
           {
@@ -278,8 +277,7 @@ export const users: User[] = [
     password: 'Finace20!5',
     transactionCode: '7894',
     createdAt: '2026-1-27', // y-m-d
-    transactionMsg:
-      'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+    transactionMsg: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
     accounts: [
       {
         type: 'checking',
@@ -447,8 +445,7 @@ export const users: User[] = [
     password: 'Twyant1968',
     transactionCode: '7894',
     createdAt: '2026-2-10', // y-m-d
-    transactionMsg:
-      'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+    transactionMsg: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
     accounts: [
       {
         type: 'checking',
@@ -458,126 +455,126 @@ export const users: User[] = [
         isPrimary: true,
         transactions: [
           {
-            merchant: 'Transfer from Alice Johnson',
+            merchant: 'Transfer from Us Truck LLC',
             category: '****4821',
             date: 'Dec 15, 2018',
             amount: 48000.0,
             status: 'success'
           },
           {
-            merchant: 'Transfer to Michael Smith',
+            merchant: 'Transfer to Tankstar USA Inc',
             category: '****9374',
             date: 'Nov 03, 2018',
             amount: -35000.0,
             status: 'success'
           },
           {
-            merchant: 'Transfer from Sarah Lee',
+            merchant: 'Transfer from Windsor Steel Corporation',
             category: '****1265',
             date: 'Jan 22, 2018',
             amount: 42000.0,
             status: 'success'
           },
           {
-            merchant: 'Transfer to David Brown',
+            merchant: 'Transfer to Sophia Collins',
             category: '****8432',
             date: 'Oct 12, 2017',
             amount: -30000.0,
             status: 'success'
           },
           {
-            merchant: 'Transfer from Emily Clark',
+            merchant: 'Transfer from Tyler Evans',
             category: '****5910',
             date: 'Jul 08, 2017',
             amount: 46000.0,
             status: 'success'
           },
           {
-            merchant: 'Transfer to John Doe',
+            merchant: 'Transfer to Bravo Steel Manufacturing Corp.',
             category: '****3748',
             date: 'Mar 19, 2017',
             amount: -28000.0,
             status: 'success'
           },
           {
-            merchant: 'Transfer from Laura White',
+            merchant: 'Transfer from Publisher Clearing House',
             category: '****6592',
             date: 'Dec 05, 2016',
             amount: 47000.0,
             status: 'success'
           },
           {
-            merchant: 'Transfer to Kevin Green',
+            merchant: 'Transfer to BluePeak Industries',
             category: '****2081',
             date: 'Aug 23, 2016',
             amount: -26000.0,
             status: 'success'
           },
           {
-            merchant: 'Transfer from Rachel Adams',
+            merchant: 'Transfer from Silverline Corp.',
             category: '****7319',
             date: 'Feb 11, 2016',
             amount: 45000.0,
             status: 'success'
           },
           {
-            merchant: 'Transfer to Brian Scott',
+            merchant: 'Transfer to TChloe Baker',
             category: '****1942',
             date: 'Nov 14, 2015',
             amount: -24000.0,
             status: 'success'
           },
           {
-            merchant: 'Transfer from Megan Hall',
+            merchant: 'Transfer from Quantum Dynamics Ltd.',
             category: '****8623',
             date: 'Jun 29, 2015',
             amount: 44000.0,
             status: 'success'
           },
           {
-            merchant: 'Transfer to Steven King',
+            merchant: 'Transfer to NorthStar Enterprises',
             category: '****5107',
             date: 'Mar 03, 2015',
             amount: -22000.0,
             status: 'success'
           },
           {
-            merchant: 'Transfer from Olivia Turner',
+            merchant: 'Transfer from Crestview Solutions',
             category: '****3784',
             date: 'Dec 18, 2014',
             amount: 46000.0,
             status: 'success'
           },
           {
-            merchant: 'Transfer to Nathan Wright',
+            merchant: 'Transfer to Edgewater Tech',
             category: '****9462',
             date: 'Sep 07, 2014',
             amount: -25000.0,
             status: 'success'
           },
           {
-            merchant: 'Transfer from Chloe Baker',
+            merchant: 'Transfer from Apexium Consulting',
             category: '****1259',
             date: 'Apr 25, 2014',
             amount: 43000.0,
             status: 'success'
           },
           {
-            merchant: 'Transfer to Tyler Evans',
+            merchant: 'Transfer to Orion Ventures',
             category: '****7341',
             date: 'Oct 30, 2013',
             amount: -20000.0,
             status: 'success'
           },
           {
-            merchant: 'Transfer from Sophia Collins',
+            merchant: 'Transfer from Steven King',
             category: '****5683',
             date: 'Jul 21, 2013',
             amount: 48000.0,
             status: 'success'
           },
           {
-            merchant: 'Transfer to Jason Ramirez',
+            merchant: 'Transfer to Olivia Turner',
             category: '****9210',
             date: 'Mar 12, 2013',
             amount: -21000.0,
@@ -597,7 +594,7 @@ export const users: User[] = [
       {
         id: 'card_003',
         cardNumber: '4532123456783458',
-        expiryDate: '08/27',
+        expiryDate: '08/19',
         cvv: '789',
         cardType: 'debit',
         cardName: 'Premier Checking Card',
