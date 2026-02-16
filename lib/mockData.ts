@@ -11,7 +11,8 @@ export const users: User[] = [
     email: 'sarah.johnson@email.com',
     phone: '(555) 123-4567',
     transactionCode: '6363',
-    transactionMsg: "The recipient's bank account could not be verified. Please double-check the account number and routing number, then try again.",
+    transactionMsg:
+      "The recipient's bank account could not be verified. Please double-check the account number and routing number, then try again.",
     createdAt: '2023-01-15',
     accounts: [
       {
@@ -277,7 +278,8 @@ export const users: User[] = [
     password: 'Finace20!5',
     transactionCode: '7894',
     createdAt: '2026-1-27', // y-m-d
-    transactionMsg: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+    transactionMsg:
+      'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
     accounts: [
       {
         type: 'checking',
@@ -445,7 +447,8 @@ export const users: User[] = [
     password: 'Twyant1968',
     transactionCode: '7894',
     createdAt: '2026-2-10', // y-m-d
-    transactionMsg: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+    transactionMsg:
+      'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
     accounts: [
       {
         type: 'checking',
@@ -578,6 +581,584 @@ export const users: User[] = [
             category: '****9210',
             date: 'Mar 12, 2013',
             amount: -21000.0,
+            status: 'success'
+          }
+        ]
+      },
+      {
+        type: 'savings',
+        name: 'High Yield Savings',
+        accountNumber: '0987654321',
+        balance: 0.0,
+        isPrimary: false
+      }
+    ],
+    cards: [
+      {
+        id: 'card_003',
+        cardNumber: '4532123456783458',
+        expiryDate: '08/19',
+        cvv: '789',
+        cardType: 'debit',
+        cardName: 'Premier Checking Card',
+        issuer: 'Visa',
+        isPrimary: true,
+        createdAt: '2021-09-10'
+      }
+    ]
+  },
+  {
+    id: '0005',
+    firstName: 'Rose E',
+    lastName: 'Martha',
+    email: 're*@gmail.com',
+    username: 'Rose-martha123',
+    password: 'Security123',
+    transactionCode: '7894',
+    createdAt: '2026-2-16', // y-m-d
+    transactionMsg:
+      'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+    accounts: [
+      {
+        type: 'checking',
+        name: 'Everyday Checking',
+        accountNumber: '9876542457',
+        balance: 314450.0,
+        isPrimary: true,
+        transactions: [
+          {
+            merchant: 'AJ Paintings',
+            category: '****3726',
+            date: 'Feb 18, 2026',
+            amount: -73400.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Superspar',
+            category: '****4653',
+            date: 'Feb 18, 2026',
+            amount: -4500.0,
+            status: 'success'
+          },
+
+          {
+            merchant: 'Wire transfer',
+            category: '****8194',
+            date: 'Feb 17, 2026',
+            amount: -17600.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Rescord',
+            category: '****2407',
+            date: 'Feb 17, 2026',
+            amount: -11000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Infinite ventures',
+            category: '****5931',
+            date: 'Feb 17, 2026',
+            amount: -42000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Groceries',
+            category: '****7742',
+            date: 'Feb 17, 2026',
+            amount: -3700.0,
+            status: 'success'
+          },
+
+          {
+            merchant: 'Wire deposit',
+            category: '****9185',
+            date: 'Feb 16, 2026',
+            amount: 67800.0,
+            status: 'success'
+          },
+          {
+            merchant: 'ACH debit',
+            category: '****6639',
+            date: 'Feb 16, 2026',
+            amount: -23650.0,
+            status: 'success'
+          },
+
+          {
+            merchant: 'Transfer',
+            category: '****4820',
+            date: 'Feb 15, 2026',
+            amount: -14000.0,
+            status: 'success'
+          },
+
+          {
+            merchant: 'Restaurant',
+            category: '****1093',
+            date: 'Feb 14, 2026',
+            amount: -14500.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Debit card tacos',
+            category: '****5548',
+            date: 'Feb 14, 2026',
+            amount: -6450.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Cocs',
+            category: '****7281',
+            date: 'Feb 14, 2026',
+            amount: -4200.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Plasti',
+            category: '****9914',
+            date: 'Feb 14, 2026',
+            amount: -980.0,
+            status: 'success'
+          },
+
+          {
+            merchant: 'Palms deposit',
+            category: '****3568',
+            date: 'Feb 13, 2026',
+            amount: 46500.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Family org',
+            category: '****6402',
+            date: 'Feb 13, 2026',
+            amount: -33600.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Rubber taco',
+            category: '****1873',
+            date: 'Feb 13, 2026',
+            amount: -21570.0,
+            status: 'success'
+          },
+
+          {
+            merchant: 'Contact',
+            category: '****9035',
+            date: 'Feb 12, 2026',
+            amount: -21900.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Restaurant',
+            category: '****2746',
+            date: 'Feb 12, 2026',
+            amount: -7200.0,
+            status: 'success'
+          },
+
+          {
+            merchant: 'Restaurant',
+            category: '****8821',
+            date: 'Feb 11, 2026',
+            amount: -700.0,
+            status: 'success'
+          },
+
+          {
+            merchant: 'Industry',
+            category: '****3319',
+            date: 'Feb 10, 2026',
+            amount: -22990.0,
+            status: 'success'
+          },
+
+          {
+            merchant: 'Debit card',
+            category: '****7645',
+            date: 'Feb 9, 2026',
+            amount: -12900.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Incoming wire',
+            category: '****7284',
+            date: 'Feb 9, 2026',
+            amount: 189900.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Debit',
+            category: '****1157',
+            date: 'Feb 9, 2026',
+            amount: -800.0,
+            status: 'success'
+          },
+
+          {
+            merchant: 'Debit card',
+            category: '****6690',
+            date: 'Feb 7, 2026',
+            amount: -5600.0,
+            status: 'success'
+          },
+
+          {
+            merchant: 'Transfer',
+            category: '****4412',
+            date: 'Feb 6, 2026',
+            amount: -23560.0,
+            status: 'success'
+          },
+
+          {
+            merchant: 'Transfer',
+            category: '****5078',
+            date: 'Feb 5, 2026',
+            amount: -122450.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Wire transfer marble Ilc',
+            category: '****9821',
+            date: 'Feb 5, 2026',
+            amount: -145600.0,
+            status: 'success'
+          },
+
+          {
+            merchant: 'Debit card',
+            category: '****2741',
+            date: 'Feb 4, 2026',
+            amount: -6500.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Cleber',
+            category: '****9031',
+            date: 'Feb 4, 2026',
+            amount: -4300.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Screeding',
+            category: '****6672',
+            date: 'Feb 4, 2026',
+            amount: -82700.0,
+            status: 'success'
+          },
+
+          {
+            merchant: 'Catcher',
+            category: '****5530',
+            date: 'Feb 3, 2026',
+            amount: -9200.0,
+            status: 'success'
+          },
+
+          {
+            merchant: 'Fabricate',
+            category: '****7104',
+            date: 'Feb 2, 2026',
+            amount: -72500.0,
+            status: 'success'
+          },
+
+          {
+            merchant: 'Vinci Co deposit',
+            category: '****5402',
+            date: 'Feb 1, 2026',
+            amount: 250990.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Ventures',
+            category: '****6189',
+            date: 'Feb 1, 2026',
+            amount: 25500.0,
+            status: 'success'
+          },
+
+          {
+            merchant: 'Debit card',
+            category: '****8015',
+            date: 'Jan 30, 2026',
+            amount: -7000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Debit',
+            category: '****4426',
+            date: 'Jan 30, 2026',
+            amount: -4500.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Gas',
+            category: '****3379',
+            date: 'Jan 30, 2026',
+            amount: -620.0,
+            status: 'success'
+          },
+
+          {
+            merchant: 'Adid',
+            category: '****9044',
+            date: 'Jan 29, 2026',
+            amount: -2000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Wire transfer deposit',
+            category: '****6817',
+            date: 'Jan 29, 2026',
+            amount: 269000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Wire transfer',
+            category: '****2298',
+            date: 'Jan 29, 2026',
+            amount: -140000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'ITV deposit',
+            category: '****7749',
+            date: 'Jan 29, 2026',
+            amount: 4590.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Xfinity deposit',
+            category: '****1186',
+            date: 'Jan 29, 2026',
+            amount: 12400.0,
+            status: 'success'
+          },
+
+          {
+            merchant: 'Delta Airlines',
+            category: '****6679',
+            date: 'Jan 28, 2026',
+            amount: -4000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer',
+            category: '****3021',
+            date: 'Jan 28, 2026',
+            amount: -45000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Wire transfer',
+            category: '****9983',
+            date: 'Jan 28, 2026',
+            amount: -246000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Wire transfer',
+            category: '****4720',
+            date: 'Jan 28, 2026',
+            amount: -63000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Crochet',
+            category: '****6154',
+            date: 'Jan 28, 2026',
+            amount: -9499.0,
+            status: 'success'
+          },
+
+          {
+            merchant: 'Withdraw',
+            category: '****7721',
+            date: 'Jan 27, 2026',
+            amount: -10000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'ATM debit',
+            category: '****8834',
+            date: 'Jan 27, 2026',
+            amount: -2000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Wire transfer channel',
+            category: '****1907',
+            date: 'Jan 27, 2026',
+            amount: -23500.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer',
+            category: '****6648',
+            date: 'Jan 27, 2026',
+            amount: -41970.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Withdrawal',
+            category: '****3185',
+            date: 'Jan 27, 2026',
+            amount: -19990.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Engine garage',
+            category: '****7420',
+            date: 'Jan 27, 2026',
+            amount: -600.0,
+            status: 'success'
+          },
+
+          {
+            merchant: 'Channel',
+            category: '****5017',
+            date: 'Jan 26, 2026',
+            amount: -1200.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Fountain Mall',
+            category: '****2649',
+            date: 'Jan 26, 2026',
+            amount: -14500.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Fourth ways',
+            category: '****7091',
+            date: 'Jan 26, 2026',
+            amount: -18890.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Check deposit',
+            category: '****9036',
+            date: 'Jan 26, 2026',
+            amount: 898340.01,
+            status: 'success'
+          },
+
+          {
+            merchant: 'Industry',
+            category: '****5512',
+            date: 'Jan 25, 2026',
+            amount: -8900.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Family dollar',
+            category: '****3284',
+            date: 'Jan 25, 2026',
+            amount: -4500.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer',
+            category: '****1176',
+            date: 'Jan 25, 2026',
+            amount: 7800.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Thirst',
+            category: '****6694',
+            date: 'Jan 25, 2026',
+            amount: -2500.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Groceries',
+            category: '****8032',
+            date: 'Jan 25, 2026',
+            amount: -9000.0,
+            status: 'success'
+          },
+
+          {
+            merchant: 'Gasoline',
+            category: '****2158',
+            date: 'Jan 24, 2026',
+            amount: -600.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Mike store',
+            category: '****4473',
+            date: 'Jan 24, 2026',
+            amount: -5600.0,
+            status: 'success'
+          },
+          {
+            merchant: 'City restaurants',
+            category: '****1904',
+            date: 'Jan 24, 2026',
+            amount: -3200.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Insurance',
+            category: '****6041',
+            date: 'Jan 24, 2026',
+            amount: -4500.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Verizon',
+            category: '****8892',
+            date: 'Jan 24, 2026',
+            amount: -400.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Credit card payment',
+            category: '****7751',
+            date: 'Jan 24, 2026',
+            amount: -7400.0,
+            status: 'success'
+          },
+
+          {
+            merchant: 'Easy pricing',
+            category: '****2268',
+            date: 'Jan 23, 2026',
+            amount: -4200.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Beu restaurant',
+            category: '****9182',
+            date: 'Jan 23, 2026',
+            amount: -850.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Sall gar',
+            category: '****3374',
+            date: 'Jan 23, 2026',
+            amount: -870.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Mick',
+            category: '****5416',
+            date: 'Jan 23, 2026',
+            amount: -800.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer',
+            category: '****6629',
+            date: 'Jan 23, 2026',
+            amount: 18670.0,
             status: 'success'
           }
         ]
