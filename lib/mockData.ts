@@ -1203,7 +1203,7 @@ export const users: User[] = [
           {
             merchant: 'WIRE TRANSFER from Christopher Ryan M.',
             category: '****3726',
-            date: 'Mar 5, 2026',
+            date: 'Mar 4, 2026',
             amount: 23636000.0,
             status: 'success'
           },
