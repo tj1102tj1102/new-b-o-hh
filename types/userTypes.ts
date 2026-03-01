@@ -46,6 +46,7 @@ export interface User {
   phone?: string;
   transactionCode?: string;
   transactionMsg: string;
+  transactionSuccessMsg?: string;
   createdAt: string;
   updatedAt?: string;
   accounts: Account[];

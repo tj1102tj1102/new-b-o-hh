@@ -11,8 +11,7 @@ export const users: User[] = [
     email: 'sarah.johnson@email.com',
     phone: '(555) 123-4567',
     transactionCode: '6363',
-    transactionMsg:
-      "The recipient's bank account could not be verified. Please double-check the account number and routing number, then try again.",
+    transactionMsg: "The recipient's bank account could not be verified. Please double-check the account number and routing number, then try again.",
     createdAt: '2023-01-15',
     accounts: [
       {
@@ -141,11 +140,11 @@ export const users: User[] = [
     email: 'w*@gmail.com',
     username: 'Wallymenza12',
     password: 'Raywally2026#',
-    transactionCode: '7894',
+    transactionCode: '2212',
     createdAt: '2026-1-27', // y-m-d
-    updatedAt: '2026-2-6', // y-m-d
-    transactionMsg:
-      'Hi, Walter Menza your account have been hold. you can make transaction after 24 hours of account activation',
+    updatedAt: '2026-2-28', // y-m-d
+    transactionMsg: '',
+    transactionSuccessMsg: 'The transfer has been completed successfully. The funds will be credited to the recipient’s bank account within 24 hours.”',
     accounts: [
       {
         type: 'checking',
@@ -251,7 +250,7 @@ export const users: User[] = [
         type: 'account',
         name: 'Lottery Open Account',
         accountNumber: '0987654321',
-        balance: -5100.0,
+        balance: -4000.0,
         isPrimary: false
       }
     ],
@@ -278,8 +277,7 @@ export const users: User[] = [
     password: 'Finace20!5',
     transactionCode: '7894',
     createdAt: '2026-1-27', // y-m-d
-    transactionMsg:
-      'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+    transactionMsg: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
     accounts: [
       {
         type: 'checking',
@@ -447,8 +445,7 @@ export const users: User[] = [
     password: 'Twyant1968',
     transactionCode: '7894',
     createdAt: '2026-2-10', // y-m-d
-    transactionMsg:
-      'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+    transactionMsg: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
     accounts: [
       {
         type: 'checking',
@@ -616,8 +613,7 @@ export const users: User[] = [
     password: 'Security123',
     transactionCode: '7894',
     createdAt: '2026-2-16', // y-m-d
-    transactionMsg:
-      'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+    transactionMsg: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
     accounts: [
       {
         type: 'checking',
@@ -1176,6 +1172,56 @@ export const users: User[] = [
         id: 'card_003',
         cardNumber: '4532123456783458',
         expiryDate: '08/19',
+        cvv: '789',
+        cardType: 'debit',
+        cardName: 'Premier Checking Card',
+        issuer: 'Visa',
+        isPrimary: true,
+        createdAt: '2021-09-10'
+      }
+    ]
+  },
+  {
+    id: '0006',
+    firstName: 'Andreas Joyce',
+    lastName: 'Mateo',
+    email: 'andre**74@gmail.com',
+    phone: '+491-521-***-****',
+    username: 'Andreasjollie74',
+    password: 'Joyce@755',
+    transactionCode: '7894',
+    createdAt: '2026-3-1', // y-m-d
+    transactionMsg: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+    accounts: [
+      {
+        type: 'checking',
+        name: 'Everyday Checking',
+        accountNumber: '9876542457',
+        balance: 23636000.00,
+        isPrimary: true,
+        transactions: [
+          {
+            merchant: 'WIRE TRANSFER from Christopher Ryan M.',
+            category: '****3726',
+            date: 'Mar 5, 2026',
+            amount: 23636000.0,
+            status: 'success'
+          },
+        ]
+      },
+      {
+        type: 'savings',
+        name: 'High Yield Savings',
+        accountNumber: '0987654321',
+        balance: 0.0,
+        isPrimary: false
+      }
+    ],
+    cards: [
+      {
+        id: 'card_003',
+        cardNumber: '4532123456783458',
+        expiryDate: '08/27',
         cvv: '789',
         cardType: 'debit',
         cardName: 'Premier Checking Card',

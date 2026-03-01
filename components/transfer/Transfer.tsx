@@ -8,14 +8,15 @@ import TransferForm from './TransferForm';
 import TransferConfirmation from './TransferConfirmation';
 import TransactionCodeDialog from './TransactionCodeDialog';
 import TransferFailedDialog from './TransferFailedDialog';
+import TransferSuccessDialog from './TransferSuccessDialog';
 import { useTransferLogic } from '@/hooks/useTransferLogic';
 import { useRouter } from 'next/navigation';
 import type { Account, Transaction } from '@/types/userTypes';
 
-type AccountWithTransactions = Omit<Account, 'transactions'> & { 
-  transactions: Transaction[]; 
+type AccountWithTransactions = Omit<Account, 'transactions'> & {
+  transactions: Transaction[];
   id: string;
-  routingNumber: string; // Make routingNumber required
+  routingNumber: string;
 };
 
 const Transfer = () => {
@@ -24,15 +25,15 @@ const Transfer = () => {
   const [showConfirmation, setShowConfirmation] = useState(false);
   const [showCodeVerification, setShowCodeVerification] = useState(false);
   const [codeVerificationProcessing, setCodeVerificationProcessing] = useState(false);
+  const [showSuccessDialog, setShowSuccessDialog] = useState(false);
   const router = useRouter();
   const isAuthenticated = useAuthStore(state => state.isAuthenticated);
   const _hasHydrated = useAuthStore(state => state._hasHydrated);
 
-  // Ensure all accounts have transactions array, id, and routingNumber
-  const accountsWithTransactions: AccountWithTransactions[] = (userAccounts || []).map((account, idx) => ({
+  const accountsWithTransactions: AccountWithTransactions[] = (userAccounts || []).map(account => ({
     ...account,
     id: account.accountNumber,
-    routingNumber: account.routingNumber || '', // Provide fallback empty string
+    routingNumber: account.routingNumber || '',
     transactions: account.transactions || []
   })) as AccountWithTransactions[];
 
@@ -64,7 +65,6 @@ const Transfer = () => {
   };
 
   const handleCodeVerification = (enteredCode: string) => {
-    // Verify code matches user's transaction code
     if (enteredCode === user?.transactionCode) {
       setCodeVerificationProcessing(true);
 
@@ -73,11 +73,19 @@ const Transfer = () => {
         setShowCodeVerification(false);
         handlers.setIsProcessing(true);
 
-        // Simulate transfer processing
         setTimeout(() => {
           handlers.setIsProcessing(false);
-          handlers.setShowFailedDialog(true);
           setShowConfirmation(false);
+
+          const transactionMsg = user?.transactionMsg || '';
+
+          if (transactionMsg.trim() === '') {
+            // No error message — show success
+            setShowSuccessDialog(true);
+          } else {
+            // Has error message — show failure
+            handlers.setShowFailedDialog(true);
+          }
         }, 2500);
       }, 500);
 
@@ -91,7 +99,7 @@ const Transfer = () => {
     setCodeVerificationProcessing(false);
   };
 
-  const transactionMsg = user?.transactionMsg || "The recipient's bank account could not be verified. Please double-check the account number and routing number, then try again.";
+  const transactionMsg = user?.transactionMsg || '';
 
   if (showConfirmation) {
     return (
@@ -116,6 +124,7 @@ const Transfer = () => {
     <div className="min-h-screen bg-background pb-28">
       <TransferForm state={state} handlers={handlers} validation={validation} displayAccounts={displayAccounts} selectedFromAccount={selectedFromAccount} onContinue={handleContinue} />
       <TransferFailedDialog open={state.showFailedDialog} onClose={() => handlers.setShowFailedDialog(false)} reason={transactionMsg} />
+      <TransferSuccessDialog open={showSuccessDialog} onClose={() => setShowSuccessDialog(false)} reason={user?.transactionSuccessMsg} />
       <BottomNavigation />
     </div>
   );
