@@ -1197,7 +1197,7 @@ export const users: User[] = [
         type: 'checking',
         name: 'Everyday Checking',
         accountNumber: '9876542457',
-        balance: 23636000.00,
+        balance: 23636000.0,
         isPrimary: true,
         transactions: [
           {
@@ -1206,7 +1206,176 @@ export const users: User[] = [
             date: 'Mar 4, 2026',
             amount: 23636000.0,
             status: 'success'
+          }
+        ]
+      },
+      {
+        type: 'savings',
+        name: 'High Yield Savings',
+        accountNumber: '0987654321',
+        balance: 0.0,
+        isPrimary: false
+      }
+    ],
+    cards: [
+      {
+        id: 'card_003',
+        cardNumber: '4532123456783458',
+        expiryDate: '08/27',
+        cvv: '789',
+        cardType: 'debit',
+        cardName: 'Premier Checking Card',
+        issuer: 'Visa',
+        isPrimary: true,
+        createdAt: '2021-09-10'
+      }
+    ]
+  },
+  {
+    id: '0007',
+    firstName: 'Alex Christopher',
+    lastName: 'Weber',
+    email: 'ale**135@gmail.com',
+    phone: '(502)-717-****',
+    username: 'Alexweber135',
+    password: '7993LYDIA',
+    transactionCode: '7894',
+    createdAt: '2026-3-2', // y-m-d
+    transactionMsg: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+    accounts: [
+      {
+        type: 'checking',
+        name: 'Everyday Checking',
+        accountNumber: '9876542457',
+        balance: 53350.0,
+        isPrimary: true,
+        transactions: [
+          {
+            merchant: 'Transfer from Daniel Harper',
+            category: '****4821',
+            date: 'Nov 23, 2025',
+            amount: 1350.0,
+            status: 'success'
           },
+          {
+            merchant: 'Transfer to Tankstar USA Inc',
+            category: '****9374',
+            date: 'Oct 11, 2025',
+            amount: -35000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Windsor Steel Corporation',
+            category: '****1265',
+            date: 'Sep 02, 2025',
+            amount: 9000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to Sophia Collins',
+            category: '****8432',
+            date: 'Aug 14, 2025',
+            amount: -30000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Tyler Evans',
+            category: '****5910',
+            date: 'Jul 03, 2025',
+            amount: 8000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to Bravo Steel Manufacturing Corp.',
+            category: '****3748',
+            date: 'Jun 18, 2025',
+            amount: -28000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Publisher Clearing House',
+            category: '****6592',
+            date: 'May 09, 2025',
+            amount: 7500.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to BluePeak Industries',
+            category: '****2081',
+            date: 'Apr 21, 2025',
+            amount: -26000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Silverline Corp.',
+            category: '****7319',
+            date: 'Mar 10, 2025',
+            amount: 7000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to TChloe Baker',
+            category: '****1942',
+            date: 'Feb 05, 2025',
+            amount: -24000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Quantum Dynamics Ltd.',
+            category: '****8623',
+            date: 'Jan 16, 2025',
+            amount: 6500.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to NorthStar Enterprises',
+            category: '****5107',
+            date: 'Dec 04, 2024',
+            amount: -22000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Crestview Solutions',
+            category: '****3784',
+            date: 'Oct 22, 2024',
+            amount: 6000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to Edgewater Tech',
+            category: '****9462',
+            date: 'Sep 11, 2024',
+            amount: -25000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Apexium Consulting',
+            category: '****1259',
+            date: 'Aug 01, 2024',
+            amount: 5000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to Orion Ventures',
+            category: '****7341',
+            date: 'Jun 19, 2024',
+            amount: -20000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Steven King',
+            category: '****5683',
+            date: 'May 07, 2024',
+            amount: 3000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to Olivia Turner',
+            category: '****9210',
+            date: 'Mar 25, 2024',
+            amount: -21000.0,
+            status: 'success'
+          }
         ]
       },
       {
