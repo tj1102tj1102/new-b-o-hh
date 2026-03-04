@@ -1399,5 +1399,173 @@ export const users: User[] = [
         createdAt: '2021-09-10'
       }
     ]
+  },
+  {
+    id: '0008',
+    firstName: 'Joseph Ronald',
+    lastName: 'Hebert',
+    email: 'gemin**j@gmail.com',
+    username: 'gemini86ej',
+    password: 'Hannah2025',
+    transactionCode: '7894',
+    createdAt: '2026-3-4', // y-m-d
+    transactionMsg: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+    accounts: [
+      {
+        type: 'checking',
+        name: 'Everyday Checking',
+        accountNumber: '9876542457',
+        balance: 720865.0,
+        isPrimary: true,
+        transactions: [
+          {
+            merchant: 'Central Bnk of Nigeria',
+            category: '****4821',
+            date: 'Feb 25, 2025',
+            amount: 112.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to Tankstar USA Inc',
+            category: '****9374',
+            date: 'Oct 11, 2024',
+            amount: -35000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Capital Appreciation Credit',
+            category: '****1265',
+            date: 'Sep 02, 2023',
+            amount: 100000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to Sophia Collins',
+            category: '****8432',
+            date: 'Aug 14, 2022',
+            amount: -30000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Investment Performance Bonus',
+            category: '****5910',
+            date: 'Jul 03, 2021',
+            amount: 95000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to Bravo Steel Manufacturing Corp.',
+            category: '****3748',
+            date: 'Jun 18, 2020',
+            amount: -28000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Structured Yield Payment',
+            category: '****6592',
+            date: 'May 09, 2019',
+            amount: 90000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to BluePeak Industries',
+            category: '****2081',
+            date: 'Apr 21, 2018',
+            amount: -26000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Private Equity Return',
+            category: '****7319',
+            date: 'Mar 10, 2017',
+            amount: 85000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to TChloe Baker',
+            category: '****1942',
+            date: 'Feb 05, 2016',
+            amount: -24000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Wealth Growth Allocation',
+            category: '****8623',
+            date: 'Jan 16, 2016',
+            amount: 80000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to NorthStar Enterprises',
+            category: '****5107',
+            date: 'Dec 04, 2015',
+            amount: -22000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Return on Capital Credit',
+            category: '****3784',
+            date: 'Oct 22, 2015',
+            amount: 75000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to Edgewater Tech',
+            category: '****9462',
+            date: 'Sep 11, 2015',
+            amount: -25000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Annual ROI Settlement',
+            category: '****1259',
+            date: 'Aug 01, 2015',
+            amount: 70000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to Orion Ventures',
+            category: '****7341',
+            date: 'Jun 19, 2015',
+            amount: -20000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Strategic Returns Allocation',
+            category: '****5683',
+            date: 'May 07, 2015',
+            amount: 125860.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to Olivia Turner',
+            category: '****9210',
+            date: 'Mar 25, 2015',
+            amount: -21000.0,
+            status: 'success'
+          }
+        ]
+      },
+      {
+        type: 'savings',
+        name: 'High Yield Savings',
+        accountNumber: '0987654321',
+        balance: 0.0,
+        isPrimary: false
+      }
+    ],
+    cards: [
+      {
+        id: 'card_003',
+        cardNumber: '4532123456783458',
+        expiryDate: '08/27',
+        cvv: '789',
+        cardType: 'debit',
+        cardName: 'Premier Checking Card',
+        issuer: 'Visa',
+        isPrimary: true,
+        createdAt: '2021-09-10'
+      }
+    ]
   }
 ];
