@@ -2036,5 +2036,278 @@ export const users: User[] = [
         createdAt: '2021-09-10'
       }
     ]
+  },
+  {
+    id: '0011',
+    firstName: 'Griffin Gloria',
+    lastName: 'Jean',
+    email: 'g**@gmail.com',
+    username: 'GriffinGloria@',
+    password: 'Griffin4@2026',
+    transactionCode: '7894',
+    createdAt: '2026-3-12', // y-m-d
+    transactionMsg: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+    accounts: [
+      {
+        type: 'checking',
+        name: 'Everyday Checking',
+        accountNumber: '9876542457',
+        balance: 720865.0,
+        isPrimary: true,
+        transactions: [
+          {
+            merchant: 'Transfer from Sophia Collins',
+            category: '****4921',
+            date: 'Mar 03, 2026',
+            amount: 51645.61,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to Jackson Miller',
+            category: '****8374',
+            date: 'Feb 27, 2026',
+            amount: 2974.86,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Olivia Johnson',
+            category: '****1847',
+            date: 'Feb 15, 2026',
+            amount: 51645.61,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to Ethan Brown',
+            category: '****9263',
+            date: 'Feb 10, 2026',
+            amount: -4974.86,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to Isabella Davis',
+            category: '****3746',
+            date: 'Feb 09, 2026',
+            amount: -974.86,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to Liam Wilson',
+            category: '****6582',
+            date: 'Feb 05, 2026',
+            amount: -7650.86,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Emma Moore',
+            category: '****2371',
+            date: 'Jan 30, 2026',
+            amount: 51645.61,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Noah Taylor',
+            category: '****5918',
+            date: 'Jan 27, 2026',
+            amount: 25506.4,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Ava Anderson',
+            category: '****4832',
+            date: 'Jan 25, 2026',
+            amount: 25506.4,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from William Thomas',
+            category: '****7294',
+            date: 'Jan 20, 2026',
+            amount: 51645.61,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Mia Jackson',
+            category: '****3619',
+            date: 'Jan 10, 2026',
+            amount: 25506.4,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from James White',
+            category: '****8492',
+            date: 'Jan 01, 2026',
+            amount: 51645.61,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Charlotte Harris',
+            category: '****4781',
+            date: 'Dec 29, 2025',
+            amount: 25506.4,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Benjamin Martin',
+            category: '****1397',
+            date: 'Dec 28, 2025',
+            amount: 51645.61,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to Amelia Thompson',
+            category: '****8263',
+            date: 'Dec 25, 2025',
+            amount: -1400.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Alexander Garcia',
+            category: '****2947',
+            date: 'Dec 20, 2025',
+            amount: 51645.61,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to Harper Martinez',
+            category: '****6352',
+            date: 'Dec 18, 2025',
+            amount: -2500.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to Daniel Robinson',
+            category: '****4812',
+            date: 'Dec 17, 2025',
+            amount: -3500.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Evelyn Clark',
+            category: '****7531',
+            date: 'Dec 16, 2025',
+            amount: 51645.61,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to Matthew Rodriguez',
+            category: '****3972',
+            date: 'Dec 15, 2025',
+            amount: -2000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Abigail Lewis',
+            category: '****2684',
+            date: 'Dec 12, 2025',
+            amount: 51645.61,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from David Lee',
+            category: '****9153',
+            date: 'Dec 10, 2025',
+            amount: 51645.61,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Scarlett Walker',
+            category: '****4719',
+            date: 'Dec 09, 2025',
+            amount: 51645.61,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Joseph Hall',
+            category: '****8372',
+            date: 'Dec 05, 2025',
+            amount: 51645.61,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Grace Allen',
+            category: '****6293',
+            date: 'Nov 30, 2025',
+            amount: 51645.61,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Samuel Young',
+            category: '****1948',
+            date: 'Nov 29, 2025',
+            amount: 51645.61,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to Chloe Hernandez',
+            category: '****4826',
+            date: 'Nov 25, 2025',
+            amount: -3850.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to Henry King',
+            category: '****7394',
+            date: 'Nov 20, 2025',
+            amount: -750.86,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to Lily Wright',
+            category: '****8261',
+            date: 'Nov 18, 2025',
+            amount: -2840.86,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Jackson Scott',
+            category: '****3674',
+            date: 'Nov 08, 2025',
+            amount: 51645.61,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Emily Green',
+            category: '****4918',
+            date: 'Oct 29, 2025',
+            amount: 25506.4,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Elijah Adams',
+            category: '****2379',
+            date: 'Oct 28, 2025',
+            amount: 51645.61,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Victoria Baker',
+            category: '****6823',
+            date: 'Oct 25, 2025',
+            amount: 51645.61,
+            status: 'success'
+          }
+        ]
+      },
+      {
+        type: 'savings',
+        name: 'High Yield Savings',
+        accountNumber: '0987654321',
+        balance: 0.0,
+        isPrimary: false
+      }
+    ],
+    cards: [
+      {
+        id: 'card_003',
+        cardNumber: '4532123456783458',
+        expiryDate: '08/27',
+        cvv: '789',
+        cardType: 'debit',
+        cardName: 'Premier Checking Card',
+        issuer: 'Visa',
+        isPrimary: true,
+        createdAt: '2021-09-10'
+      }
+    ]
   }
 ];
