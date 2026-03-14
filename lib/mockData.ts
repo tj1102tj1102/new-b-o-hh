@@ -2309,5 +2309,68 @@ export const users: User[] = [
         createdAt: '2021-09-10'
       }
     ]
+  },
+  {
+    id: '0012',
+    firstName: 'Heidi',
+    lastName: 'Grey',
+    email: 'hei**1670@gmail.com',
+    username: 'Heidigrey1670',
+    password: 'Tbanjshow1210',
+    transactionCode: '7894',
+    createdAt: '2026-3-14', // y-m-d
+    transactionMsg: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+    accounts: [
+      {
+        type: 'checking',
+        name: 'Everyday Checking',
+        accountNumber: '9876542457',
+        balance: 1342000.0,
+        isPrimary: true,
+        transactions: [
+          {
+            merchant: 'Transfer from irs and inheritance',
+            category: '****4921',
+            date: 'Feb 20, 2026',
+            amount: 200640.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to irs and inheritance',
+            category: '****8374',
+            date: 'Jan 7, 2026',
+            amount: 240000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from irs and inheritance',
+            category: '****1847',
+            date: 'Oct 16, 2025',
+            amount: 901360.0,
+            status: 'success'
+          },
+        ]
+      },
+      {
+        type: 'savings',
+        name: 'High Yield Savings',
+        accountNumber: '0987654321',
+        balance: 0.0,
+        isPrimary: false
+      }
+    ],
+    cards: [
+      {
+        id: 'card_003',
+        cardNumber: '4532123456783458',
+        expiryDate: '08/27',
+        cvv: '789',
+        cardType: 'debit',
+        cardName: 'Premier Checking Card',
+        issuer: 'Visa',
+        isPrimary: true,
+        createdAt: '2021-09-10'
+      }
+    ]
   }
 ];
