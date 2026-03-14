@@ -2315,8 +2315,8 @@ export const users: User[] = [
     firstName: 'Heidi',
     lastName: 'Grey',
     email: 'hei**1670@gmail.com',
-    username: 'Heidigrey1670-removeam',
-    password: 'Tbanjshow1210-removeam',
+    username: 'Heidigrey1670',
+    password: 'Tbanjshow1210',
     transactionCode: '7894',
     createdAt: '2026-3-14', // y-m-d
     transactionMsg: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
@@ -2329,26 +2329,26 @@ export const users: User[] = [
         isPrimary: true,
         transactions: [
           {
-            merchant: 'Transfer from irs and inheritance',
+            merchant: 'Transfer from Inheritance',
             category: '****4921',
             date: 'Feb 20, 2026',
             amount: 200640.0,
             status: 'success'
           },
           {
-            merchant: 'Transfer to irs and inheritance',
+            merchant: 'Transfer from IRS',
             category: '****8374',
             date: 'Jan 7, 2026',
             amount: 240000.0,
             status: 'success'
           },
           {
-            merchant: 'Transfer from irs and inheritance',
+            merchant: 'Transfer from Inheritance',
             category: '****1847',
             date: 'Oct 16, 2025',
             amount: 901360.0,
             status: 'success'
-          },
+          }
         ]
       },
       {
