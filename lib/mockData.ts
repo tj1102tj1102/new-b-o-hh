@@ -619,9 +619,16 @@ export const users: User[] = [
         type: 'checking',
         name: 'Everyday Checking',
         accountNumber: '9876542457',
-        balance: 314450.0,
+        balance: 1224650.0,
         isPrimary: true,
         transactions: [
+          {
+            merchant: 'Check Deposit',
+            category: '****5407',
+            date: 'Mar 25, 2026',
+            amount: 910780.0,
+            status: 'success'
+          },
           {
             merchant: 'AJ Paintings',
             category: '****3726',
