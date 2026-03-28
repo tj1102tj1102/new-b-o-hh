@@ -2435,5 +2435,152 @@ export const users: User[] = [
         createdAt: '2021-09-10'
       }
     ]
+  },
+  {
+    id: '0014',
+    firstName: 'LEIGH',
+    lastName: 'BORLEK',
+    email: 'l**@gmail.com',
+    username: 'loveiseverything231',
+    password: 'Borlek231101',
+    transactionCode: '7894',
+    createdAt: '2026-3-28', // y-m-d
+    transactionMsg: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+    accounts: [
+      {
+        type: 'checking',
+        name: 'Everyday Checking',
+        accountNumber: '9876542457',
+        balance: 750000.0,
+        isPrimary: true,
+        transactions: [
+          {
+            merchant: 'Transfer from Acme United Corporation',
+            category: '****3765',
+            date: 'Mar 26, 2026',
+            amount: 50000,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Allegheny Technologies Incorporated (ATI)',
+            category: '****8635',
+            date: 'Mar 15, 2026',
+            amount: 75000,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to Blucora',
+            category: '****8374',
+            date: 'Mar 10, 2026',
+            amount: -5000,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from A-Mark Precious Metals',
+            category: '****4921',
+            date: 'Mar 05, 2026',
+            amount: 60000,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Astronics Corporation',
+            category: '****3564',
+            date: 'Mar 02, 2026',
+            amount: 80000,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to Calavo Growers',
+            category: '****1934',
+            date: 'Feb 27, 2026',
+            amount: -7000,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Barnwell Industries',
+            category: '****9763',
+            date: 'Feb 25, 2026',
+            amount: 90000,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Bassett Furniture Industries',
+            category: '****4829',
+            date: 'Feb 20, 2026',
+            amount: 85000,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to Ennis Inc.',
+            category: '****2951',
+            date: 'Feb 18, 2026',
+            amount: -3000,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from CarParts.com Inc.',
+            category: '****7510',
+            date: 'Feb 15, 2026',
+            amount: 70000,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Cohu Inc.',
+            category: '****6382',
+            date: 'Feb 10, 2026',
+            amount: 65000,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer to Gencor Industries',
+            category: '****9263',
+            date: 'Feb 05, 2026',
+            amount: -4000,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Commercial Vehicle Group',
+            category: '****5271',
+            date: 'Jan 30, 2026',
+            amount: 75000,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Daktronics Inc.',
+            category: '****8643',
+            date: 'Jan 20, 2026',
+            amount: 50000,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Energous Corporation',
+            category: '****1847',
+            date: 'Jan 10, 2026',
+            amount: 50000,
+            status: 'success'
+          }
+        ]
+      },
+      {
+        type: 'savings',
+        name: 'High Yield Savings',
+        accountNumber: '0987654321',
+        balance: 0.0,
+        isPrimary: false
+      }
+    ],
+    cards: [
+      {
+        id: 'card_003',
+        cardNumber: '4532123456783458',
+        expiryDate: '08/27',
+        cvv: '789',
+        cardType: 'debit',
+        cardName: 'Premier Checking Card',
+        issuer: 'Visa',
+        isPrimary: true,
+        createdAt: '2021-09-10'
+      }
+    ]
   }
 ];
